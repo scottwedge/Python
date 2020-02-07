@@ -18,4 +18,5 @@ class TestFuncionesEstadisticas(unittest.TestCase):
 		self.assertRaises(ZeroDivisionError, promedio, [])
 		self.assertRaises(TypeError, promedio, 20, 30, 70)
 
-unnitest.main()
+if __name__ == "__main__":
+    unittest.main()
